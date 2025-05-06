@@ -136,7 +136,8 @@ npm run dev
 
   
 - Форма добавления и редактирования новостей
-  
+
+<img width="1204" alt="image" src="https://github.com/user-attachments/assets/da375c2d-4c61-4767-9821-59188d458c12" />
 <img width="1193" alt="image" src="https://github.com/user-attachments/assets/f1351ef2-301f-4c17-95c8-e7e12d393ce8" />
 
 ---
