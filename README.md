@@ -122,23 +122,23 @@ npm run dev
 ## Примеры использования
 
 - Страница регистрации / входа
-  
-<img width="1154" alt="image" src="https://github.com/user-attachments/assets/68b0049d-fcbc-4696-803d-9de64433f1a9" />
-<img width="1262" alt="image" src="https://github.com/user-attachments/assets/8918174a-ca62-47e5-a813-2c608efb0cf1" />
+<img width="1162" alt="image" src="https://github.com/user-attachments/assets/d87a8a54-8d41-4dcb-8b29-dd389b8a247a" />
+<img width="1175" alt="image" src="https://github.com/user-attachments/assets/4c6c4c57-09a8-4b13-aaec-3bc291830ce2" />
+
 
 - Главная страница с фильтрами и поиском
-  
-<img width="1176" alt="image" src="https://github.com/user-attachments/assets/a38cc9eb-f7a6-4197-b1e6-b7516e300180" />
+<img width="1184" alt="image" src="https://github.com/user-attachments/assets/0d518272-97dc-46e8-86e7-fff343b60995" />
+
 
 - Панель администратора
-  
-<img width="1204" alt="image" src="https://github.com/user-attachments/assets/da375c2d-4c61-4767-9821-59188d458c12" />
+<img width="1167" alt="image" src="https://github.com/user-attachments/assets/79fee661-5640-4b2d-94c6-d056fb027e19" />
+
 
   
 - Форма добавления и редактирования новостей
+<img width="1161" alt="image" src="https://github.com/user-attachments/assets/caa7d258-a7e2-4786-b850-21ea7cde9a10" />
+<img width="1165" alt="image" src="https://github.com/user-attachments/assets/79eff7da-25ed-4e9d-9608-9b449448d57f" />
 
-<img width="1204" alt="image" src="https://github.com/user-attachments/assets/da375c2d-4c61-4767-9821-59188d458c12" />
-<img width="1193" alt="image" src="https://github.com/user-attachments/assets/f1351ef2-301f-4c17-95c8-e7e12d393ce8" />
 
 ---
 
