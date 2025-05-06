@@ -122,19 +122,22 @@ npm run dev
 ## Примеры использования
 
 - Страница регистрации / входа
+  
 <img width="1154" alt="image" src="https://github.com/user-attachments/assets/68b0049d-fcbc-4696-803d-9de64433f1a9" />
 <img width="1262" alt="image" src="https://github.com/user-attachments/assets/8918174a-ca62-47e5-a813-2c608efb0cf1" />
 
 - Главная страница с фильтрами и поиском
+  
 <img width="1176" alt="image" src="https://github.com/user-attachments/assets/a38cc9eb-f7a6-4197-b1e6-b7516e300180" />
 
 - Панель администратора
+  
 <img width="1204" alt="image" src="https://github.com/user-attachments/assets/da375c2d-4c61-4767-9821-59188d458c12" />
 
   
 - Форма добавления и редактирования новостей
+  
 <img width="1193" alt="image" src="https://github.com/user-attachments/assets/f1351ef2-301f-4c17-95c8-e7e12d393ce8" />
-![Uploading image.png…]()
 
 ---
 
