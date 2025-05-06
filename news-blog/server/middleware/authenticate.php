@@ -1,9 +1,23 @@
 <?php
+/**
+ * Middleware для аутентификации пользователей.
+ * 
+ * Этот файл содержит функции для проверки JWT-токена в заголовке Authorization
+ * и извлечения данных пользователя из токена.
+ */
+
 require_once __DIR__ . '/../vendor/autoload.php';
 require_once __DIR__ . '/../config/config.php';
 
 use Firebase\JWT\JWT;
 use Firebase\JWT\Key;
+
+/**
+ * Проверяет JWT-токен из заголовка Authorization.
+ * 
+ * @return array|null Возвращает массив с данными пользователя, если токен валиден.
+ * @throws Exception Если токен недействителен или истёк.
+ */
 function authenticate(): ?array {
     $headers = getallheaders();
     if (!isset($headers['Authorization'])) {
@@ -31,6 +45,11 @@ function authenticate(): ?array {
     }
 }
 
+/**
+ * Извлекает данные пользователя из JWT-токена.
+ * 
+ * @return array|null Возвращает массив с деталями пользователя или null, если токен недействителен.
+ */
 function getUserDetails() {
     $authHeader = $_SERVER['HTTP_AUTHORIZATION'] ?? '';
     if (str_starts_with($authHeader, 'Bearer ')) {
@@ -44,11 +63,11 @@ function getUserDetails() {
                 'sub' => $decoded->sub,
                 'role' => $decoded->role ?? 'user',
                 'email' => $decoded->email ?? '',
-                'id' => $user->id ?? '',
+                'id' => $decoded->id ?? '',
                 'username' => $decoded->username ?? '',
             ];
         } catch (Exception $e) {
-            // просто игнорируем — пользователь останется null
+            // Игнорируем ошибку — пользователь останется null
         }
     }
 
