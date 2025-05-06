@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Launch PHP Server (API)",
+        "type": "php",
+        "request": "launch",
+        "program": "${workspaceFolder}/news-blog/server/index.php",
+        "cwd": "${workspaceFolder}/news-blog/server",
+        "runtimeExecutable": "php",
+        "runtimeArgs": [
+          "-S", "localhost:8000", "index.php"
+        ],
+        "port": 0,
+        "console": "integratedTerminal"
+      }
+    ]
+  }
+  

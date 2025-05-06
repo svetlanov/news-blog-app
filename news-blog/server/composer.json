@@ -1,0 +1,17 @@
+{
+    "name": "blogapp/novak",
+    "autoload": {
+        "psr-4": {
+            "Blogapp\\Novak\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "slimecube98",
+            "email": "57504261+slimecube98@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "firebase/php-jwt": "^6.11"
+    }
+}
